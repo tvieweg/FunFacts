@@ -25,6 +25,9 @@
                   @"Some penguins can leap 2-3 meters out of the water.",
                   @"On average, it takes 66 days to form a new habit.",
                   @"Mammoths still walked the Earth when the Great Pyramid was being built.",
+                  @"Banging your head against a wall burns 150 calories an hour.",
+                  @"The average woman uses her height in lipstick every 5 years.",
+                  @"A small child could swim through the veins of a blue whale.",
                   nil];    }
     return self;
 }
