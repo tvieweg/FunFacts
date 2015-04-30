@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13489961AF1D61C00FE655D /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B13489951AF1D61C00FE655D /* FactBook.m */; };
+		B160DD081AF2A2BF00C6CB2A /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = B160DD071AF2A2BF00C6CB2A /* ColorWheel.m */; };
 		B1DDCA2D1AF19FF50061464D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DDCA2C1AF19FF50061464D /* main.m */; };
 		B1DDCA301AF19FF50061464D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DDCA2F1AF19FF50061464D /* AppDelegate.m */; };
 		B1DDCA331AF19FF50061464D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DDCA321AF19FF50061464D /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B13489941AF1D61C00FE655D /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		B13489951AF1D61C00FE655D /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		B160DD061AF2A2BF00C6CB2A /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		B160DD071AF2A2BF00C6CB2A /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		B1DDCA271AF19FF50061464D /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DDCA2B1AF19FF50061464D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1DDCA2C1AF19FF50061464D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +87,10 @@
 		B1DDCA291AF19FF50061464D /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
+				B160DD061AF2A2BF00C6CB2A /* ColorWheel.h */,
+				B160DD071AF2A2BF00C6CB2A /* ColorWheel.m */,
+				B13489941AF1D61C00FE655D /* FactBook.h */,
+				B13489951AF1D61C00FE655D /* FactBook.m */,
 				B1DDCA2E1AF19FF50061464D /* AppDelegate.h */,
 				B1DDCA2F1AF19FF50061464D /* AppDelegate.m */,
 				B1DDCA311AF19FF50061464D /* ViewController.h */,
@@ -221,7 +231,9 @@
 			files = (
 				B1DDCA331AF19FF50061464D /* ViewController.m in Sources */,
 				B1DDCA301AF19FF50061464D /* AppDelegate.m in Sources */,
+				B13489961AF1D61C00FE655D /* FactBook.m in Sources */,
 				B1DDCA2D1AF19FF50061464D /* main.m in Sources */,
+				B160DD081AF2A2BF00C6CB2A /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				B1DDCA4C1AF19FF60061464D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1DDCA4D1AF19FF60061464D /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				B1DDCA4F1AF19FF60061464D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
