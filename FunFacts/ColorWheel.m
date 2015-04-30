@@ -22,6 +22,7 @@
                    [UIColor colorWithRed:77/255.0 green:75/255.0 blue:82/255.0 alpha:1.0], //dark color
                    [UIColor colorWithRed:105/255.0 green:94/255.0 blue:133/255.0 alpha:1.0], //purple color
                    [UIColor colorWithRed:85/255.0 green:176/255.0 blue:112/255.0 alpha:1.0], //green color
+                   [UIColor colorWithRed:120/255.0 green: 80/255.0 blue: 45/255.0 alpha:1.0], //brown color
                    nil];
     }
     return self;
